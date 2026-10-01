@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="images/logo.png">
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" id="menu-checkbox">
+            <label class="menu-toggle-label" for="menu-checkbox" aria-label="Abrir menú"></label>
+
+            <div class="header-content">
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+                <h1 class="nom">Joropo Vibes Fest</h1>
+            </div>
+            <nav id="main-nav">
+                <img class="logo-nav" src="images/logo.png" alt="Logo">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#datos">Datos</a></li>
+                    <li><a href="index.html#patrocinadores">Patrocinadores</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="registro">
+            <section>
+                <h1>Registrate</h1>
+            </section>
+            <section class="fom-registro">
+              <form action="URL_DEL_SERVIDOR" method="POST">
+                <div class="campo-formulario-1">
+                    <input type="text" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="campo-formulario-1">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="campo-formulario-1">
+                    <input type="password" id="contraseña" placeholder="Contraseña" required>
+                </div>
+                <div class="campo-formulario-1">
+                    <input type="password" id="repetir-contraseña" placeholder="Repite la contraseña" required>
+                </div>
+                <div>
+                    <button class="btn-r" type="submit">Registrarse</button>
+                </div>
+              </form>
+            </section>
+        </main>
+          <footer class="main-footer">
+        <div class="footer-social">
+                    <a href="https://www.instagram.com/?hl=es" target="_blank"> <!--El target="_blank" sirve para que se abra en una nueva pestaña la url-->
+                        <img src="images/instagram.png" alt="" width="50">
+                    </a>
+                    <a href="https://es.linkedin.com" target="_blank">
+                        <img src="images/linkedin.png" alt="" width="50">
+                    </a>
+                    <a href="https://www.tiktok.com" target="_blank">
+                        <img src="images/tik-tok.png" alt="" width="50">
+                    </a>
+                    <a href="https://x.com" target="_blank">
+                        <img src="images/x.png" alt="" width="50">
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="images/youtube.png" alt="" width="50">
+                    </a>
+                </div>
+                <div class="footer-legal">
+                    <a href="terminos-condiciones.html">Terminos y condiciones</a>
+                    <span class="separator">|</span>
+                    <a href="cookies.html">Política de cookies</a>
+                    <span class="separator">|</span>
+                    <a href="politica-privacidad.html">Política de privacidad</a>
+                </div>
+                <div class="footer-credits">
+                    Made with <span class="heart">❤️</span>Valerie &copy;2026
+                </div>
+    </footer>
+    <script src="js/js.js"></script>
+    </body>
+</html>
